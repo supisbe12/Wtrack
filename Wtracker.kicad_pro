@@ -648,13 +648,17 @@
         "uuid": "5995ed42-5985-4112-883f-688afeeca90f"
       }
     ],
-    "used_designators": "LS1,U2-4,IC2,L1-6,#PWR3-8,C1-6",
+    "used_designators": "#PWR3,#PWR8-35,L6-7,X1,C2,C4,C6-8,C10,C12-13,C15,C19-20,U1-2,U5,B1,MK1",
     "variants": []
   },
   "sheets": [
     [
       "5995ed42-5985-4112-883f-688afeeca90f",
       "Root"
+    ],
+    [
+      "160dc923-8838-4a55-aa0e-3f19516882e7",
+      "GPSmod"
     ]
   ],
   "text_variables": {},
