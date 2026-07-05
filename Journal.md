@@ -11,6 +11,15 @@ Learned a lot about datasheets today and how to read them. It was really hard to
 
 <img width="739" height="497" alt="image" src="https://github.com/user-attachments/assets/3d78c793-49ac-462f-aa3c-795acd5b1cb5" />
 
+
+
+
+
+
+
+
+
+
 Then I learned how to connect Antennas together and it was quite complicated with the usage of a lot of back and forth of capacitors and inductors which I didn't understand why then I researched it. which is required because to match the frequency.
 Also learned that Antennas sometimes have different modes like active and passive.
 
