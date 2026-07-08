@@ -13,15 +13,6 @@ Learned a lot about datasheets today and how to read them. It was really hard to
 
 <img width="739" height="497" alt="image" src="https://github.com/user-attachments/assets/3d78c793-49ac-462f-aa3c-795acd5b1cb5" />
 
-
-
-
-
-
-
-
-
-
 Then I learned how to connect Antennas together and it was quite complicated with the usage of a lot of back and forth of capacitors and inductors which I didn't understand why then I researched it. which is required because to match the frequency.
 Also learned that Antennas sometimes have different modes like active and passive.
 
@@ -32,3 +23,25 @@ Also got the board wrong yesterday so had to find a new one.
 <img width="761" height="524" alt="image" src="https://github.com/user-attachments/assets/e6014a4c-4b59-4aba-81c3-32a00eb0ab65" />
 
 Schematic kinda messy gonna organize it tommorrow.
+
+**_Day 3_** - Set up Kicad and easy EDA on my computer and finished schematics- **2 hours**
+
+It took me a long time to setup kicad and all of the imports and file path right but when I finally got it working I was able to finish connecting the bluetooth harmonic filter and everything on that track.
+
+<img width="1406" height="962" alt="image" src="https://github.com/user-attachments/assets/1a2c779c-d10a-4650-a5a2-8b0862e4cadb" />
+
+It is still very messy I am going to clean it up soon when i get motivation.
+
+**_Day 4_** - Fixed Footprints, Started PCB and wiring- **6 hours**
+
+I had to add my old footprints which was on my computer and moved it on over to my laptop So I had to refind the footprint for some of the older parts that I placed.
+
+<img width="1026" height="626" alt="image" src="https://github.com/user-attachments/assets/d78ba806-f359-4356-97b8-5b6cfc736fa1" />
+
+
+After that, I was organizing the location of the hardware until I found it really hard to wire the NRF52840-QIAA-R because of it's extremely small pads.
+
+<img width="854" height="844" alt="image" src="https://github.com/user-attachments/assets/6998cd85-2e25-4084-9f43-c4d97e0a524f" />
+
+It wasn't fitting the JLPCB standard and I decided to stop for the day and ask for help on slack and try again tomorrow.
+I learned about some new stuff like impedance and stub routing/trace and new constraints that JLPCB have.
