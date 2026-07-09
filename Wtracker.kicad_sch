@@ -5,6 +5,201 @@
 	(uuid "5995ed42-5985-4112-883f-688afeeca90f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "0402CG120J500NT_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C2"
+				(at 1.2701 -3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "12pF NP0 ±2%, 0402"
+				(at -1.2699 -3.81 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "easyeda:C0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120-5-50V_C1547.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "12pF (120) ±5% 50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FH(风华)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402CG120J500NT"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C1547"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402CG120J500NT_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402CG120J500NT_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -426,197 +621,6 @@
 				)
 			)
 			(symbol "0402CG101J500NT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EasyEDA:0402CG120J500NT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0402CG120J500NT"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda:C0402"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120-5-50V_C1547.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "12pF (120) ±5% 50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "FH(风华)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "0402CG120J500NT"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C1547"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0402CG120J500NT_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.51 0)
@@ -4778,241 +4782,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PKLCS1212E4001-R1:PKLCS1212E4001-R1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LS"
-				(at 11.43 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "PKLCS1212E4001-R1"
-				(at 11.43 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "PKLCS1212E4001R1"
-				(at 11.43 -102.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.murata.com/products/productdata/8801054490654/SPEC-PKLCS1212E4001-R1.pdf?1622037701000"
-				(at 11.43 -202.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Transducer piezo SMT 12mm 3Vpp 75dB Murata 75dB SMD Continuous External Piezo Buzzer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "3"
-				(at 11.43 -402.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "81-PKLCS1212E4001"
-				(at 11.43 -502.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/PKLCS1212E4001-R1?qs=obr%252BoSDNKM%252Btd7GB2KoUgw%3D%3D"
-				(at 11.43 -602.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Murata Electronics"
-				(at 11.43 -702.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "PKLCS1212E4001-R1"
-				(at 11.43 -802.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "PKLCS1212E4001-R1_1_1"
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.27) (xy 7.112 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -3.81) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 -3.81) (xy 9.652 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.652 3.81) (xy 7.112 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.652 3.81) (xy 9.652 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RFX2401C:RFX2401C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5457,6 +5226,616 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda:0402CG120J500NT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402CG120J500NT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:C0402"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_12pF-120-5-50V_C1547.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "12pF (120) ±5% 50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FH(风华)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402CG120J500NT"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C1547"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402CG120J500NT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402CG120J500NT_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda:2450LP14A100T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FL"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2450LP14A100T"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:FILTER-SMD_0603-6P-L1.6-W0.8_2450LP14A100T"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3155782.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JOHANSON(约翰逊)"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "2450LP14A100T"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C3155782"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2450LP14A100T_0_1"
+				(rectangle
+					(start -6.35 5.08)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.08 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda:GRM0335C1ER30BA01D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GRM0335C1ER30BA01D"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda:C0201"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM0335C1ER30BA01D_0-3pF-R30-0-1pF-25V_C88909.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "muRata(村田)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "GRM0335C1ER30BA01D"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C88909"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GRM0335C1ER30BA01D_0_1"
+				(polyline
+					(pts
+						(xy -0.51 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 -2.03) (xy -0.51 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5572,14 +5951,215 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 119.38 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29296dd2-af6c-4cfe-a707-c302af794eff")
+	)
+	(no_connect
+		(at 40.64 102.87)
+		(uuid "06c24be4-f9a9-4164-8cb2-acdcb2e015ca")
+	)
+	(no_connect
+		(at 158.75 101.6)
+		(uuid "16eb7137-232d-44fc-9b05-1ee02db65365")
+	)
+	(no_connect
+		(at 158.75 88.9)
+		(uuid "17793762-fe70-4ec9-9aae-4ac715106a67")
+	)
+	(no_connect
+		(at 92.71 132.08)
+		(uuid "17b3eb50-11d8-4e68-9aed-e9423aa60fac")
+	)
+	(no_connect
+		(at 92.71 139.7)
+		(uuid "1a443f56-bc7b-4845-a090-94d043c9ffd0")
+	)
+	(no_connect
+		(at 158.75 127)
+		(uuid "1b746995-872d-4334-9d27-961355c52b57")
+	)
+	(no_connect
+		(at 158.75 60.96)
+		(uuid "20733447-2eb3-45be-a608-c5ebaa6bcf80")
+	)
+	(no_connect
+		(at 158.75 114.3)
+		(uuid "2650b796-f4a8-461e-b184-baab0f7b3587")
 	)
 	(no_connect
 		(at 199.39 31.75)
 		(uuid "2818af42-ec4e-49ec-84de-07d7649e7411")
 	)
 	(no_connect
+		(at 158.75 139.7)
+		(uuid "2ba2e70b-ac1b-4de8-b853-bb0c6e7d592c")
+	)
+	(no_connect
+		(at 92.71 58.42)
+		(uuid "316f5616-b0a7-429a-9c9b-51044357e3ac")
+	)
+	(no_connect
+		(at 158.75 129.54)
+		(uuid "381ea9a6-0a47-488d-90bf-fa2a6a0d89ee")
+	)
+	(no_connect
+		(at 92.71 121.92)
+		(uuid "3f3157dd-0b79-446f-a7d6-c49c64ddf0a1")
+	)
+	(no_connect
+		(at 158.75 81.28)
+		(uuid "414b1c0c-a10e-4d9d-b583-1cc1242e469a")
+	)
+	(no_connect
+		(at 158.75 134.62)
+		(uuid "45ef8608-abdc-4a30-abd5-f1d904af4cf8")
+	)
+	(no_connect
+		(at 92.71 55.88)
+		(uuid "4b708578-9b22-42f9-bac3-6c9467ab0819")
+	)
+	(no_connect
+		(at 92.71 60.96)
+		(uuid "4ba08282-3212-475d-b9ba-77d9a7b121c0")
+	)
+	(no_connect
+		(at 92.71 91.44)
+		(uuid "4cb7201f-2abb-46c4-ab2f-839b6b6d8900")
+	)
+	(no_connect
 		(at 92.71 106.68)
 		(uuid "52cf483c-9a96-40f2-8689-b73a622fb469")
+	)
+	(no_connect
+		(at 158.75 111.76)
+		(uuid "547b94d1-2c11-46e0-b406-c2b116eb0aa6")
+	)
+	(no_connect
+		(at 158.75 119.38)
+		(uuid "5a8ad48f-9873-448e-b525-e78a29b5f5a0")
+	)
+	(no_connect
+		(at 158.75 63.5)
+		(uuid "60b83cdc-29b6-4c3d-8666-d6e92d3de526")
 	)
 	(no_connect
 		(at 135.89 33.02)
@@ -5598,6 +6178,22 @@
 		(uuid "6e35f8cc-6cec-4972-9def-035da316a888")
 	)
 	(no_connect
+		(at 92.71 86.36)
+		(uuid "70878909-672e-4a77-947e-c94049f3e44d")
+	)
+	(no_connect
+		(at 158.75 78.74)
+		(uuid "74bcf855-3fd8-453e-ab20-6a6ae2c591a9")
+	)
+	(no_connect
+		(at 158.75 99.06)
+		(uuid "762b6270-1420-4d14-a37d-5dda430b0471")
+	)
+	(no_connect
+		(at 92.71 127)
+		(uuid "76e3e88e-50a4-41f5-9a59-c0db5b7d1371")
+	)
+	(no_connect
 		(at 43.18 148.59)
 		(uuid "7cae90ce-7a9b-411e-994d-5a10204202a2")
 	)
@@ -5606,38 +6202,154 @@
 		(uuid "81b3ac30-07ef-46de-9009-fae0fc42d09e")
 	)
 	(no_connect
+		(at 158.75 86.36)
+		(uuid "828118bb-9c03-4251-bcae-dd3ec2368ce5")
+	)
+	(no_connect
+		(at 92.71 99.06)
+		(uuid "83400610-783d-4ead-b0c1-a460aa686a9d")
+	)
+	(no_connect
+		(at 158.75 144.78)
+		(uuid "8375069f-48fc-4917-9efe-6e23da20786e")
+	)
+	(no_connect
 		(at 48.26 148.59)
 		(uuid "87771592-389b-4510-a94a-6e2d71f912b0")
+	)
+	(no_connect
+		(at 92.71 129.54)
+		(uuid "8a06a87e-3636-4059-aa2d-2bbcc93fa7ca")
+	)
+	(no_connect
+		(at 158.75 124.46)
+		(uuid "8db7f5a5-3e63-4b8f-8863-fe18a6c06108")
+	)
+	(no_connect
+		(at 45.72 148.59)
+		(uuid "949581cf-519c-48dd-89ac-575262a5c823")
 	)
 	(no_connect
 		(at 199.39 36.83)
 		(uuid "95d34c1f-0ccc-4e94-9039-5964c05d6205")
 	)
 	(no_connect
+		(at 158.75 96.52)
+		(uuid "99691322-c56f-4184-b0f0-873467b828d2")
+	)
+	(no_connect
+		(at 158.75 104.14)
+		(uuid "9ad52f91-17ac-4ace-b55c-290d20742bb6")
+	)
+	(no_connect
 		(at 232.41 29.21)
 		(uuid "9e1ffa5b-3901-4c8e-92a5-8940da18a2f2")
+	)
+	(no_connect
+		(at 92.71 134.62)
+		(uuid "9f8d786c-b3d9-4c4d-9501-d64c7d045a63")
+	)
+	(no_connect
+		(at 92.71 68.58)
+		(uuid "a0252610-3ce8-4fe0-91e4-affa89c3ce49")
+	)
+	(no_connect
+		(at 27.94 166.37)
+		(uuid "a1b39f5b-a087-46d1-827c-b553f92068c2")
+	)
+	(no_connect
+		(at 92.71 137.16)
+		(uuid "a2733541-fe8b-490c-9483-6d5c0639cc0b")
 	)
 	(no_connect
 		(at 43.18 191.77)
 		(uuid "ac12d15e-a479-40a5-b6a9-e9b204f9f1ec")
 	)
 	(no_connect
+		(at 158.75 142.24)
+		(uuid "b01545cc-be49-4a4c-aa73-3b809d6d47c9")
+	)
+	(no_connect
 		(at 232.41 24.13)
 		(uuid "b7ed9f40-1743-4774-b956-fb5b26b80f11")
+	)
+	(no_connect
+		(at 158.75 93.98)
+		(uuid "c07095ff-b949-40a1-82a2-ff5bdcdae070")
+	)
+	(no_connect
+		(at 158.75 58.42)
+		(uuid "c2427caf-c1c5-4165-9450-50fb04fe8b2e")
+	)
+	(no_connect
+		(at 158.75 91.44)
+		(uuid "c3cd9a38-81ed-4d21-9877-ee427f9fd0c4")
+	)
+	(no_connect
+		(at 92.71 142.24)
+		(uuid "c9e39369-fae4-4cd5-836f-9051449db9bb")
+	)
+	(no_connect
+		(at 158.75 53.34)
+		(uuid "e4cf1d45-9f0b-457a-9ad4-c78e15cfb657")
+	)
+	(no_connect
+		(at 92.71 119.38)
+		(uuid "ed261426-d437-448e-bca5-a04cab58fd56")
+	)
+	(no_connect
+		(at 92.71 88.9)
+		(uuid "ee5dc6a7-b293-4a70-b3e0-287b5785e785")
 	)
 	(no_connect
 		(at 199.39 39.37)
 		(uuid "f35685a7-cba1-470e-af34-4ee109d2e7c7")
 	)
-	(label "VBATT"
-		(at 45.72 148.59 0)
+	(no_connect
+		(at 158.75 137.16)
+		(uuid "f37de841-c19d-4691-97ed-1319110f31c9")
+	)
+	(no_connect
+		(at 92.71 53.34)
+		(uuid "f77cc028-32ac-410a-86fa-164cdd476cd7")
+	)
+	(no_connect
+		(at 158.75 132.08)
+		(uuid "fb7778f3-e6e5-4d38-b956-5b6a6d5232cc")
+	)
+	(no_connect
+		(at 92.71 63.5)
+		(uuid "fba253e7-8b0f-412e-a28d-5815b5a08576")
+	)
+	(label "BLUT_TX"
+		(at 38.1 191.77 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "05455980-5291-467f-a608-129616ce7898")
+		(uuid "03da0377-90cd-4d7a-936b-a669dbae45ad")
+	)
+	(label "BLUT_TX"
+		(at 92.71 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08ac491e-9bfa-4fb8-b5d6-d3432f88a875")
+	)
+	(label "DEC4"
+		(at 251.46 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c8981c9-e442-457d-85d6-0bb273cc6ef6")
 	)
 	(label "VBATT"
 		(at 264.16 133.35 180)
@@ -5648,6 +6360,16 @@
 			(justify right bottom)
 		)
 		(uuid "0cf8dbaa-5898-4ba3-b2e3-7690c788cf10")
+	)
+	(label "BLUT_RX"
+		(at 40.64 191.77 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d05fdbf-f346-47bc-af29-d69c11843daa")
 	)
 	(label "SC_MID"
 		(at 96.52 36.83 180)
@@ -5688,6 +6410,26 @@
 			(justify left bottom)
 		)
 		(uuid "11062598-1581-40af-ba25-4f05de0eb140")
+	)
+	(label "XC2"
+		(at 193.04 143.51 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "154dad8d-3c8b-492c-bf9d-d98a6bfb0af5")
+	)
+	(label "RF"
+		(at 27.94 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16a72e13-c18c-4fb9-b209-867ed6b15b7d")
 	)
 	(label "VBATT"
 		(at 232.41 31.75 0)
@@ -5739,6 +6481,16 @@
 		)
 		(uuid "337c79a4-ed96-4e2f-bddc-adafbb2ee6ea")
 	)
+	(label "FILTER"
+		(at 68.58 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "359e568c-19a2-4081-9ecd-6dac49afc822")
+	)
 	(label "VBATT"
 		(at 20.32 85.09 270)
 		(effects
@@ -5750,7 +6502,7 @@
 		(uuid "35a23a05-dbc9-44ed-b95e-7db3c47dad24")
 	)
 	(label "DCCH"
-		(at 90.17 162.56 270)
+		(at 128.27 165.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5799,16 +6551,6 @@
 		)
 		(uuid "3cae7a56-0510-434a-a5ff-5ff5305ee4e9")
 	)
-	(label "A_conn"
-		(at 83.82 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47d9daf6-cb00-4cf4-ac7e-df3d4142f8f5")
-	)
 	(label "DCC"
 		(at 92.71 78.74 180)
 		(effects
@@ -5829,7 +6571,7 @@
 		)
 		(uuid "4e303f44-5e7a-4eed-8ce9-e79d55f81661")
 	)
-	(label "ANT"
+	(label "FILTER"
 		(at 58.42 171.45 0)
 		(effects
 			(font
@@ -5838,16 +6580,6 @@
 			(justify left bottom)
 		)
 		(uuid "50ba517c-4f12-494f-9312-ca8383f97637")
-	)
-	(label "VSS_PA"
-		(at 92.71 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "50de55e3-2aad-47fc-80a0-89a6a2cfafc3")
 	)
 	(label "SC_MID"
 		(at 33.02 60.96 270)
@@ -5858,6 +6590,16 @@
 			(justify right bottom)
 		)
 		(uuid "51600d9d-b031-405c-b40e-2868ca9044f2")
+	)
+	(label "DEC5"
+		(at 255.27 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "51f15b66-a784-4cd4-a960-11174e3186b2")
 	)
 	(label "VBATT"
 		(at 242.57 17.78 90)
@@ -5880,7 +6622,7 @@
 		(uuid "52f39f53-6109-4668-b1bc-5056f63a2ffd")
 	)
 	(label "VBATT"
-		(at 90.17 152.4 90)
+		(at 128.27 154.94 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5908,6 +6650,16 @@
 			(justify left bottom)
 		)
 		(uuid "6663160c-2ca2-4444-adfe-1260966b9793")
+	)
+	(label "BLUT_RX"
+		(at 92.71 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "666b427f-3f20-40ec-a1eb-fa7c3abdc111")
 	)
 	(label "A_conn"
 		(at 73.66 115.57 0)
@@ -5949,6 +6701,16 @@
 		)
 		(uuid "7319f4c0-1679-4df3-8454-70937bce810c")
 	)
+	(label "DEC5"
+		(at 92.71 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "746b9b49-2304-43e3-93a6-1cfdf4cce036")
+	)
 	(label "DCCH"
 		(at 158.75 109.22 0)
 		(effects
@@ -5958,16 +6720,6 @@
 			(justify left bottom)
 		)
 		(uuid "773bb3d8-c3ae-4567-975c-93d282775b4d")
-	)
-	(label "VSS_PA"
-		(at 76.2 130.81 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a62c582-b964-440a-a8f7-bb1225decae8")
 	)
 	(label "RF_signal_G"
 		(at 199.39 26.67 180)
@@ -5989,6 +6741,36 @@
 		)
 		(uuid "7d2fe8a6-7408-4f70-9448-0725239b8851")
 	)
+	(label "XC2"
+		(at 205.74 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e40d00a-9596-4dcf-b92b-e836b3d88148")
+	)
+	(label "FILTER_O"
+		(at 87.63 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e6cfbbb-2d7c-4947-8c08-007fde46d15d")
+	)
+	(label "A_conn"
+		(at 80.01 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ec49e6e-5194-44f2-9265-a88c34b40a1d")
+	)
 	(label "VBATT"
 		(at 158.75 121.92 0)
 		(effects
@@ -5998,16 +6780,6 @@
 			(justify left bottom)
 		)
 		(uuid "7f18464d-5687-49bd-8746-9914a3f063a7")
-	)
-	(label "XC2"
-		(at 193.04 143.51 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "808c6bc1-5078-4e22-8bc2-e4a643a5020e")
 	)
 	(label "VBATT"
 		(at 158.75 116.84 0)
@@ -6189,6 +6961,16 @@
 		)
 		(uuid "c599a329-6a61-4619-ab36-8fd0b07d86c4")
 	)
+	(label "FILTER"
+		(at 69.85 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca75e0c5-bd5f-4246-ae85-318e9c9d2947")
+	)
 	(label "On{slash}Off"
 		(at 232.41 34.29 0)
 		(effects
@@ -6208,16 +6990,6 @@
 			(justify right bottom)
 		)
 		(uuid "d0c8e500-77cc-4abc-a47c-d8761ca72ea2")
-	)
-	(label "RF"
-		(at 35.56 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1f9dcba-f6ed-4656-a800-835367de76a0")
 	)
 	(label "VBATT"
 		(at 76.2 87.63 270)
@@ -6289,7 +7061,7 @@
 		)
 		(uuid "f2cbe520-015a-47d0-bbf2-004d69dcba71")
 	)
-	(label "BATT_RAW"
+	(label "VBATT"
 		(at 20.32 77.47 90)
 		(effects
 			(font
@@ -6298,6 +7070,16 @@
 			(justify left bottom)
 		)
 		(uuid "f3c20a21-0309-49bd-9012-39cf3c0e13df")
+	)
+	(label "FILTER_O"
+		(at 35.56 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5725f02-cfd5-4298-82af-07769a6bfe1a")
 	)
 	(symbol
 		(lib_id "EasyEDA:CL05B104KO5NNNC")
@@ -6414,7 +7196,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:SDFL1608S100KTF")
-		(at 90.17 157.48 90)
+		(at 128.27 160.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6425,7 +7207,7 @@
 		(fields_autoplaced yes)
 		(uuid "052efe0e-11a0-485c-98cd-bb059d21b01c")
 		(property "Reference" "L4"
-			(at 91.44 156.2399 90)
+			(at 129.54 158.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6436,7 +7218,7 @@
 			)
 		)
 		(property "Value" "10µH, IDC≥80mA, 0603"
-			(at 91.44 158.7799 90)
+			(at 129.54 161.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6447,7 +7229,7 @@
 			)
 		)
 		(property "Footprint" "easyeda:L0603"
-			(at 97.79 157.48 0)
+			(at 135.89 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6458,7 +7240,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Inductors-SMD_10uH-10_C1035.html"
-			(at 100.33 157.48 0)
+			(at 138.43 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +7251,7 @@
 			)
 		)
 		(property "Description" "10uH ±10%"
-			(at 90.17 157.48 0)
+			(at 128.27 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6480,7 +7262,7 @@
 			)
 		)
 		(property "Manufacturer" "Sunlord(顺络)"
-			(at 102.87 157.48 0)
+			(at 140.97 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6491,7 +7273,7 @@
 			)
 		)
 		(property "MPN" "SDFL1608S100KTF"
-			(at 105.41 157.48 0)
+			(at 143.51 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6502,7 +7284,7 @@
 			)
 		)
 		(property "LCSC Part" "C1035"
-			(at 107.95 157.48 0)
+			(at 146.05 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6522,6 +7304,131 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:2450LP14A100T")
+		(at 78.74 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07706b3b-3529-4f6e-ae95-35c0a5cf91bd")
+		(property "Reference" "FL1"
+			(at 78.74 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2450LP14A100T"
+			(at 78.74 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda:FILTER-SMD_0603-6P-L1.6-W0.8_2450LP14A100T"
+			(at 78.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3155782.pdf"
+			(at 78.74 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JOHANSON(约翰逊)"
+			(at 78.74 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "2450LP14A100T"
+			(at 78.74 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3155782"
+			(at 78.74 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "346599b4-7dc2-429b-9e49-ac3352111b8c")
+		)
+		(pin "2"
+			(uuid "1a185d4c-f912-4919-b6a8-631a319bb60b")
+		)
+		(pin "3"
+			(uuid "b8b51eab-f12a-43e8-9bc5-b37f6316c84a")
+		)
+		(pin "5"
+			(uuid "e9a2c8b8-a10f-4c8a-a0d2-430ccb8638fd")
+		)
+		(pin "6"
+			(uuid "0c1856a2-19e0-4010-b159-5b7e5c44846f")
+		)
+		(pin "4"
+			(uuid "06f1c943-8746-48b9-9784-ce38e791d816")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "FL1")
 					(unit 1)
 				)
 			)
@@ -6726,8 +7633,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 166.37 270)
+		(lib_id "power:PWR_FLAG")
+		(at 119.38 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6736,9 +7643,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12c86d93-56e3-44d2-8ed7-f9e2de4d9e2d")
-		(property "Reference" "#PWR05"
-			(at 21.59 166.37 0)
+		(uuid "10b0f4f3-5828-4c94-88b2-62847cb1935a")
+		(property "Reference" "#FLG01"
+			(at 119.38 29.845 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,19 +7655,18 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 24.13 166.3699 90)
+		(property "Value" "PWR_FLAG"
+			(at 119.38 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 166.37 0)
+			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,7 +7677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 166.37 0)
+			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6781,8 +7687,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 166.37 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 119.38 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6793,12 +7699,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2708c577-eecd-4a22-8ba4-5cccf612fe24")
+			(uuid "f320871b-cb41-4d4d-b7b8-e66bb0c49dbf")
 		)
 		(instances
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "#PWR05")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6915,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GRM18x"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 234.95 187.63 0)
 			(hide yes)
 			(show_name no)
@@ -7220,7 +8126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 97.4852 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -7649,7 +8555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GRM18x"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 273.05 229.54 0)
 			(hide yes)
 			(show_name no)
@@ -7870,7 +8776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GRM18x"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 209.55 187.63 0)
 			(hide yes)
 			(show_name no)
@@ -8138,6 +9044,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 87.63 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ef4efe9-71de-4d00-8fad-a9cab5eb0b5d")
+		(property "Reference" "#PWR030"
+			(at 93.98 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34c96e3b-96b8-4cdb-8e66-a21989278220")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 21.59 57.15 0)
 		(unit 1)
@@ -8214,6 +9199,85 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 80.01 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5553dfaf-f56c-49ad-a754-95c87a90e555")
+		(property "Reference" "#FLG02"
+			(at 80.01 150.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 82.55 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 80.01 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb51820b-c3f5-4437-a256-fe85c8ea139d")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8920,6 +9984,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 92.71 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cb114dd-a3b7-4ea8-8f35-43fe918048b0")
+		(property "Reference" "#PWR037"
+			(at 86.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6b2597f-fd8f-40f5-9cf4-a3cd3344a5bc")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 20.32 81.28 0)
 		(unit 1)
@@ -9196,7 +10339,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:0402CG120J500NT")
+		(lib_id "easyeda:0402CG120J500NT")
 		(at 220.98 151.13 270)
 		(unit 1)
 		(body_style 1)
@@ -9208,25 +10351,25 @@
 		(fields_autoplaced yes)
 		(uuid "75da664b-fa28-4939-9877-1efd1a642d79")
 		(property "Reference" "C1"
-			(at 217.17 152.4001 90)
+			(at 224.79 149.8599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "12pF NP0 ±2%, 0402"
-			(at 217.17 149.8601 90)
+			(at 224.79 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "easyeda:C0402"
@@ -9312,7 +10455,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 102.87 90)
+		(at 68.58 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9321,9 +10464,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "783d8859-aae4-4641-876e-179e3278626e")
-		(property "Reference" "#PWR013"
-			(at 52.07 102.87 0)
+		(uuid "78bd48ba-fc0e-4006-ac1c-4bd1c71289bf")
+		(property "Reference" "#PWR035"
+			(at 68.58 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9334,18 +10477,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 102.8699 90)
+			(at 68.58 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 102.87 0)
+			(at 68.58 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9356,7 +10498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 102.87 0)
+			(at 68.58 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9367,7 +10509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 102.87 0)
+			(at 68.58 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,12 +10520,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "21fcf910-b705-4f66-8c19-2d952cf1103f")
+			(uuid "61621c34-2378-4112-9eee-4f1f40177494")
 		)
 		(instances
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "#PWR013")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9411,7 +10553,7 @@
 				)
 			)
 		)
-		(property "Value" "GPS1003"
+		(property "Value" "GPS"
 			(at 147.32 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9497,6 +10639,121 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda:GRM0335C1ER30BA01D")
+		(at 68.58 177.8 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8563dda0-b84e-407c-a9d7-8ace5f414181")
+		(property "Reference" "C3"
+			(at 72.39 176.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.3pF"
+			(at 72.39 179.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda:C0201"
+			(at 76.2 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM0335C1ER30BA01D_0-3pF-R30-0-1pF-25V_C88909.html"
+			(at 78.74 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "muRata(村田)"
+			(at 81.28 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM0335C1ER30BA01D"
+			(at 83.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C88909"
+			(at 86.36 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb306f9f-5be9-438a-b787-eeea96f96a7d")
+		)
+		(pin "1"
+			(uuid "a40a11af-4b49-4b93-b762-8ce75877bdef")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9832,150 +11089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PKLCS1212E4001-R1:PKLCS1212E4001-R1")
-		(at 87.63 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "882c758a-3ca6-47f6-b92e-8042d928d16a")
-		(property "Reference" "LS1"
-			(at 99.06 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PKLCS1212E4001-R1"
-			(at 99.06 184.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PKLCS1212E4001R1"
-			(at 99.06 284.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/products/productdata/8801054490654/SPEC-PKLCS1212E4001-R1.pdf?1622037701000"
-			(at 99.06 384.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Transducer piezo SMT 12mm 3Vpp 75dB Murata 75dB SMD Continuous External Piezo Buzzer"
-			(at 87.63 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "3"
-			(at 99.06 584.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "81-PKLCS1212E4001"
-			(at 99.06 684.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/PKLCS1212E4001-R1?qs=obr%252BoSDNKM%252Btd7GB2KoUgw%3D%3D"
-			(at 99.06 784.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 99.06 884.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PKLCS1212E4001-R1"
-			(at 99.06 984.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "63ae8178-9962-4113-858a-740f97387deb")
-		)
-		(pin "1"
-			(uuid "eed7b9e9-32c7-4609-9c73-77b4786318be")
-		)
-		(instances
-			(project "Wtracker"
-				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "LS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 44.45 90)
 		(unit 1)
@@ -10133,6 +11246,7 @@
 		)
 	)
 	(symbol
+		(lib_name "0402CG120J500NT_1")
 		(lib_id "EasyEDA:0402CG120J500NT")
 		(at 193.04 147.32 270)
 		(unit 1)
@@ -10242,119 +11356,6 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:0402CG101J500NT")
-		(at 229.87 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92d7dd30-b656-4083-8c9f-be963b286257")
-		(property "Reference" "C11"
-			(at 229.87 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100pF NP0 ±5%, 0402"
-			(at 229.87 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda:C0402"
-			(at 229.87 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100pF-101-5-50V_C1546.html"
-			(at 229.87 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100pF (101) ±5% 50V"
-			(at 229.87 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FH(风华)"
-			(at 229.87 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0402CG101J500NT"
-			(at 229.87 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C1546"
-			(at 229.87 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46b9dbb2-b6df-4e4d-a2ed-0e0be5263134")
-		)
-		(pin "2"
-			(uuid "ed0f012a-a7e5-440f-a294-405e14641dd6")
-		)
-		(instances
-			(project "Wtracker"
-				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10670,7 +11671,7 @@
 	)
 	(symbol
 		(lib_id "EasyEDA:0402CG101J500NT")
-		(at 80.01 130.81 180)
+		(at 76.2 148.59 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10681,7 +11682,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fc259fb-8792-4d26-bf43-26d4db2f90c1")
 		(property "Reference" "C4"
-			(at 80.01 124.46 0)
+			(at 76.2 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10691,7 +11692,7 @@
 			)
 		)
 		(property "Value" "1.0pF NP0 ±5%, 0402"
-			(at 80.01 127 0)
+			(at 76.2 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10701,7 +11702,7 @@
 			)
 		)
 		(property "Footprint" "easyeda:C0402"
-			(at 80.01 123.19 0)
+			(at 76.2 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10712,7 +11713,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_100pF-101-5-50V_C1546.html"
-			(at 80.01 120.65 0)
+			(at 76.2 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10723,7 +11724,7 @@
 			)
 		)
 		(property "Description" "100pF (101) ±5% 50V"
-			(at 80.01 130.81 0)
+			(at 76.2 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10734,7 +11735,7 @@
 			)
 		)
 		(property "Manufacturer" "FH(风华)"
-			(at 80.01 118.11 0)
+			(at 76.2 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10745,7 +11746,7 @@
 			)
 		)
 		(property "MPN" "0402CG101J500NT"
-			(at 80.01 115.57 0)
+			(at 76.2 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +11757,7 @@
 			)
 		)
 		(property "LCSC Part" "C1546"
-			(at 80.01 113.03 0)
+			(at 76.2 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10975,6 +11976,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 69.85 170.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af303b30-91a7-45b3-9f11-09e126ac835e")
+		(property "Reference" "#PWR031"
+			(at 63.5 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 170.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a931455-1f93-4a4d-a4c0-d43bcfdb8408")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 210.82 55.88 180)
 		(unit 1)
 		(body_style 1)
@@ -11047,6 +12127,85 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b58931a7-6161-44fd-a34d-86d72f4a167b")
+		(property "Reference" "#PWR013"
+			(at 52.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 102.8699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1f18e09-7b15-4d67-bbab-6ef871159c40")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11467,6 +12626,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 69.85 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2e0c4a2-21fc-4ca6-bbab-13e6a66cc55a")
+		(property "Reference" "#PWR05"
+			(at 63.5 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "508f9a98-fbab-458f-be17-339d0a60c4d5")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 27.94 168.91 270)
 		(unit 1)
 		(body_style 1)
@@ -11763,6 +13001,7 @@
 		)
 		(property "Value" "3F,2.7V"
 			(at 123.19 28.3209 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11772,7 +13011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 120.3452 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -11978,7 +13217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 130.81 270)
+		(at 72.39 148.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11989,7 +13228,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4afc789-8eea-4b2b-b648-f27f09fbcc41")
 		(property "Reference" "#PWR012"
-			(at 69.85 130.81 0)
+			(at 66.04 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12000,7 +13239,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 130.8101 90)
+			(at 68.58 148.5901 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12011,7 +13250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 130.81 0)
+			(at 72.39 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12022,7 +13261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 130.81 0)
+			(at 72.39 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12033,7 +13272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 130.81 0)
+			(at 72.39 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,6 +13367,164 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e90e882f-6fe2-4a32-bfe1-609cfff0b38d")
+		(property "Reference" "#PWR033"
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 170.1799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69775393-a612-4088-841d-93fe2840cb3b")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb3633a6-238b-4dc9-9a9c-bb39c8380138")
+		(property "Reference" "#PWR036"
+			(at 86.36 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d765de36-d465-4f83-8300-247728aa4c97")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12487,85 +13884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 233.68 144.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9303e1a-9c0c-4eff-926c-3d900cbde459")
-		(property "Reference" "#PWR011"
-			(at 240.03 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 144.7799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c00e1f4d-1cb7-4e7e-b79c-2ed47b100f8e")
-		)
-		(instances
-			(project "Wtracker"
-				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:LQW15AN47NG00D")
 		(at 176.53 31.75 90)
 		(unit 1)
@@ -12676,52 +13994,6 @@
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "L3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 317.5 10.16)
-		(size 180.34 129.54)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "160dc923-8838-4a55-aa0e-3f19516882e7")
-		(property "Sheetname" "GPSmod"
-			(at 317.5 9.4484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "GPSmod.kicad_sch"
-			(at 317.5 140.2846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Wtracker"
-				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(page "2")
 				)
 			)
 		)
