@@ -45,3 +45,10 @@ After that, I was organizing the location of the hardware until I found it reall
 
 It wasn't fitting the JLPCB standard and I decided to stop for the day and ask for help on slack and try again tomorrow.
 I learned about some new stuff like impedance and stub routing/trace and new constraints that JLPCB have.
+
+**_Day 5_** - Finished PCB- **5 hours**
+I explored more options for JLPCB production and decided to use the smallest possible Vias that is allowed by JLPCB to wire the NRF. After that I just finished wiring everything based on my schematic while i did get a little confused at some point but it was pretty smooth sailing.
+
+I learned a lot about the placements of antennas and everything and how they needed to be seperated and different copper
+<img width="1104" height="686" alt="image" src="https://github.com/user-attachments/assets/3f45dafb-7f20-4352-810c-f70969807100" />
+
