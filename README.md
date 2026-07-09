@@ -11,4 +11,4 @@ PCB
 
 <img width="1100" height="690" alt="image" src="https://github.com/user-attachments/assets/5220f6e4-feeb-4318-ae9b-7d3a1d8a1c11" />
 ---
-Hardware
+Bill Of Materials: https://docs.google.com/spreadsheets/d/1D9NDHI8oiGVwoLBUYLz9mFe_7Vkk39w_oN8q6zxxxLU/edit?usp=sharing
