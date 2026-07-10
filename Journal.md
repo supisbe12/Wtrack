@@ -1,3 +1,4 @@
+# Total time : 25 hours
 **_Day 1_** - Searched for parts to plan out the schematic for this project - **5 hours**
 
 I spent a lot of time to find out the exact footprints that I needed for each part of the schematic like capacitors, inductors, and antennas and many of the other parts.
