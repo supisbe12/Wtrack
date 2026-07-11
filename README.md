@@ -14,3 +14,5 @@ PCB
 
 ---
 Bill Of Materials: https://docs.google.com/spreadsheets/d/1D9NDHI8oiGVwoLBUYLz9mFe_7Vkk39w_oN8q6zxxxLU/edit?usp=sharing
+
+https://github.com/supisbe12/Wtrack/blob/main/BOM.csv
