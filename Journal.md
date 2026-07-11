@@ -51,5 +51,10 @@ I learned about some new stuff like impedance and stub routing/trace and new con
 I explored more options for JLPCB production and decided to use the smallest possible Vias that is allowed by JLPCB to wire the NRF. After that I just finished wiring everything based on my schematic while i did get a little confused at some point but it was pretty smooth sailing.
 
 I learned a lot about the placements of antennas and everything and how they needed to be seperated and different copper
-<img width="1104" height="686" alt="image" src="https://github.com/user-attachments/assets/3f45dafb-7f20-4352-810c-f70969807100" />
+
+**_Day 6_** - Finished PCB- **2 hours**
+Changed the PCB and researched a thinner and stronger capacitor to fit the thin look i'm looking for. updated schematic and BOM for review
+
+<img width="1075" height="661" alt="image" src="https://github.com/user-attachments/assets/1e908871-1e50-4397-97df-9090d65e78f3" />
+
 
