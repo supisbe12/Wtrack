@@ -4782,6 +4782,243 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KR-5R5C155-R:KR-5R5C155-R"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KR-5R5C155-R"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "KR5R5C155R"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/KR-5R5C155-R.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Supercapacitors / Ultracapacitors 1.5F 5.5V EDLC Coin Cell Cyl"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "6.9"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "504-KR-5R5C155-R"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/PowerStor-Eaton/KR-5R5C155-R?qs=9GX7soZQXxEYpEe8veKISA%3D%3D"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Eaton"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KR-5R5C155-R"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "KR-5R5C155-R_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RFX2401C:RFX2401C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6581,16 +6818,6 @@
 		)
 		(uuid "50ba517c-4f12-494f-9312-ca8383f97637")
 	)
-	(label "SC_MID"
-		(at 33.02 60.96 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51600d9d-b031-405c-b40e-2868ca9044f2")
-	)
 	(label "DEC5"
 		(at 255.27 157.48 180)
 		(effects
@@ -6720,6 +6947,16 @@
 			(justify left bottom)
 		)
 		(uuid "773bb3d8-c3ae-4567-975c-93d282775b4d")
+	)
+	(label "BATT_RAW"
+		(at 20.32 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c2d85f9-6e23-44eb-8518-14fba23918a7")
 	)
 	(label "RF_signal_G"
 		(at 199.39 26.67 180)
@@ -6862,16 +7099,6 @@
 		(uuid "ad4c15b6-ad83-4202-8ad6-46c7401c484c")
 	)
 	(label "VBATT"
-		(at 63.5 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b477131b-5f04-4b2f-8eff-aaa43e5f89fa")
-	)
-	(label "VBATT"
 		(at 232.41 26.67 0)
 		(effects
 			(font
@@ -6902,16 +7129,6 @@
 		(uuid "ba5e73bb-a5ed-4a9d-b8e8-baa2e66323fd")
 	)
 	(label "VBATT"
-		(at 96.52 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdc4c69b-3ebd-40a1-8978-f27dcaa4b0dc")
-	)
-	(label "VBATT"
 		(at 224.79 123.19 180)
 		(effects
 			(font
@@ -6930,16 +7147,6 @@
 			(justify right bottom)
 		)
 		(uuid "c0b2e440-a89d-494a-ae5a-b31eac3182e9")
-	)
-	(label "VBATT"
-		(at 33.02 53.34 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1480f49-8e70-4493-bfea-e162d45473a3")
 	)
 	(label "VBATT"
 		(at 158.75 68.58 0)
@@ -7011,6 +7218,16 @@
 		)
 		(uuid "d8018dd1-ea22-4ab9-ab8c-7a5c9aa85f3e")
 	)
+	(label "BATT_RAW"
+		(at 63.5 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dedf244a-c624-48cf-85f4-56879ff86a1d")
+	)
 	(label "VBATT"
 		(at 226.06 91.44 180)
 		(effects
@@ -7030,16 +7247,6 @@
 			(justify left bottom)
 		)
 		(uuid "e79d4e02-075a-436e-be83-3e3d7ffe2c58")
-	)
-	(label "SC_MID"
-		(at 21.59 53.34 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb0d07a7-e13e-4d88-92b9-a442c577fa4c")
 	)
 	(label "VBATT"
 		(at 224.79 133.35 180)
@@ -7062,14 +7269,14 @@
 		(uuid "f2cbe520-015a-47d0-bbf2-004d69dcba71")
 	)
 	(label "VBATT"
-		(at 20.32 77.47 90)
+		(at 81.28 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f3c20a21-0309-49bd-9012-39cf3c0e13df")
+		(uuid "f38a4780-62f3-4571-8a50-bbb0c3f7f7de")
 	)
 	(label "FILTER_O"
 		(at 35.56 102.87 180)
@@ -7548,6 +7755,84 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b7f678e-c19f-4004-ba96-c8c6cf9416cf")
+		(property "Reference" "#PWR02"
+			(at 81.28 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbc82829-ddb6-454c-b0cc-2193f3a7a28a")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8093,88 +8378,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 96.52 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "262d4e99-d95a-4c4d-af4e-a0927204e054")
-		(property "Reference" "SC1"
-			(at 100.33 30.8609 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3F,2.7V"
-			(at 100.33 33.4009 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 97.4852 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 96.52 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0fe23803-c2e6-4c19-8c67-d935089357a3")
-		)
-		(pin "1"
-			(uuid "19da2348-dec5-41fb-9a8b-fafda5edbc7d")
-		)
-		(instances
-			(project "Wtracker"
-				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "SC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 119.38 31.75 0)
 		(unit 1)
@@ -8518,6 +8721,150 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KR-5R5C155-R:KR-5R5C155-R")
+		(at 81.28 30.48 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "417395fc-b849-4861-beb2-8641ce86b71e")
+		(property "Reference" "C10"
+			(at 85.09 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KR-5R5C155-R"
+			(at 85.09 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KR5R5C155R"
+			(at -14.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/KR-5R5C155-R.pdf"
+			(at -114.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Supercapacitors / Ultracapacitors 1.5F 5.5V EDLC Coin Cell Cyl"
+			(at 81.28 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "6.9"
+			(at -314.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "504-KR-5R5C155-R"
+			(at -414.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/PowerStor-Eaton/KR-5R5C155-R?qs=9GX7soZQXxEYpEe8veKISA%3D%3D"
+			(at -514.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Eaton"
+			(at -614.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KR-5R5C155-R"
+			(at -714.91 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "d97a34dd-674f-4a53-ad36-812a35900165")
+		)
+		(pin "2"
+			(uuid "c5bf6f64-ca0c-4168-964a-88354e77153e")
+		)
+		(instances
+			(project "Wtracker"
+				(path "/5995ed42-5985-4112-883f-688afeeca90f"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9123,88 +9470,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 21.59 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50f7f006-abcb-4902-8cf3-124f06ae9b16")
-		(property "Reference" "R3"
-			(at 24.13 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 24.13 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 19.812 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 21.59 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2bb2cf5b-a2ac-40b6-b948-aaceecafcb23")
-		)
-		(pin "1"
-			(uuid "49d774d6-818f-4bda-9963-c167152d68d0")
-		)
-		(instances
-			(project "Wtracker"
-				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 80.01 148.59 180)
 		(unit 1)
@@ -9514,84 +9779,6 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 21.59 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62b5bab4-1983-49dc-8e26-dc7f20657ec4")
-		(property "Reference" "#PWR02"
-			(at 21.59 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 21.59 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59135377-d5ac-4348-afee-d77c3c41cb75")
-		)
-		(instances
-			(project "Wtracker"
-				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13717,88 +13904,6 @@
 			(project "Wtracker"
 				(path "/5995ed42-5985-4112-883f-688afeeca90f"
 					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 33.02 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f75bd8f4-f231-4c29-a6e7-0a33c1085e38")
-		(property "Reference" "R2"
-			(at 35.56 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 35.56 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 31.242 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 33.02 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4cdea0d7-dacc-4a2c-bf5e-f4bba6cdddb4")
-		)
-		(pin "1"
-			(uuid "4d324380-469a-4232-accd-24e0dea7d880")
-		)
-		(instances
-			(project "Wtracker"
-				(path "/5995ed42-5985-4112-883f-688afeeca90f"
-					(reference "R2")
 					(unit 1)
 				)
 			)
