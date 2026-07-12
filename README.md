@@ -1,7 +1,9 @@
 # Wtrack
 Wtrack — a multi-network location tracker device
 
-Wtrack is a tracker with a combination of Apple Find My, Hubble (terrestrial + satellite), GPS, and BLE proximity detection on one barebones PCB (no enclosure)
+Wtrack is a tracker with a combination of Apple Find My, Hubble (terrestrial + satellite), GPS, and BLE proximity detection on one barebones PCB (no enclosure) which goes inside your wallet.
+I want it to be barebone because I wanted to be able to see the actual PCB because it looks cool ,But I am planning to add a layer acrylic spray that I already have available to prevent water from affecting the board.
+
 ---
 Schematic
 
@@ -11,6 +13,14 @@ Schematic
 PCB
 
 <img width="1066" height="671" alt="image" src="https://github.com/user-attachments/assets/c6ec6d9b-7442-42f5-bdd8-00a11ac255da" />
+
+3D view
+
+<img width="763" height="360" alt="image" src="https://github.com/user-attachments/assets/08513b26-13a6-40d0-ba94-7f4f34037acc" />
+
+Battery Cap
+
+<img width="429" height="449" alt="image" src="https://github.com/user-attachments/assets/49054744-3920-4c5e-8c68-ae166a9c023f" />
 
 ---
 Bill Of Materials: https://docs.google.com/spreadsheets/d/1D9NDHI8oiGVwoLBUYLz9mFe_7Vkk39w_oN8q6zxxxLU/edit?usp=sharing
