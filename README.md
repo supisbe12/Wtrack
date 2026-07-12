@@ -18,6 +18,10 @@ PCB
 
 <img width="763" height="360" alt="image" src="https://github.com/user-attachments/assets/08513b26-13a6-40d0-ba94-7f4f34037acc" />
 
+Battery Cap
+
+<img width="429" height="449" alt="image" src="https://github.com/user-attachments/assets/49054744-3920-4c5e-8c68-ae166a9c023f" />
+
 ---
 Bill Of Materials: https://docs.google.com/spreadsheets/d/1D9NDHI8oiGVwoLBUYLz9mFe_7Vkk39w_oN8q6zxxxLU/edit?usp=sharing
 
